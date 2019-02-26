@@ -48,8 +48,8 @@ app.post('/ajax', (req, res) => {
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
     host: 'ssl0.ovh.net',
-    port: 587,
-    secure: false,
+    port: 465,
+    secure: true,
     auth: {
       user: 'gaetan@brunel.me',
       pass: ''
