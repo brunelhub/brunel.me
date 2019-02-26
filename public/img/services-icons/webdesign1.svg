@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="174px" height="174px" viewBox="0 0 174 174" enable-background="new 0 0 174 174" xml:space="preserve">
+<g id="Icons">
+	<g>
+		<rect x="36.668" y="55.307" fill="none" stroke="#2bf5d3" stroke-width="2" width="98.5" height="69.911"/>
+		<polyline fill="none" stroke="#2bf5d3" stroke-width="2" points="127.169,91.895 127.169,96.386 44.667,96.386 44.667,63.14 
+			127.169,63.14 127.169,67.656 		"/>
+		<g>
+			<path fill="#2bf5d3" d="M64.501,106.307v8.911H46.668v-8.911H64.501 M68.501,102.307H42.668v16.911h25.833V102.307
+				L68.501,102.307z"/>
+		</g>
+		<g>
+			<path fill="#2bf5d3" d="M94.834,106.307v8.911H77v-8.911H94.834 M98.834,102.307H73v16.911h25.834V102.307L98.834,102.307z"/>
+		</g>
+		<g>
+			<path fill="#2bf5d3" d="M125.168,106.307v8.911h-17.834v-8.911H125.168 M129.168,102.307h-25.834v16.911h25.834V102.307
+				L129.168,102.307z"/>
+		</g>
+		<rect x="36.668" y="43.807" fill="none" stroke="#2bf5d3" stroke-width="2" width="98.5" height="11.5"/>
+		<line fill="none" stroke="#2bf5d3" stroke-width="2" x1="41.168" y1="49.473" x2="44.905" y2="49.473"/>
+		<line fill="none" stroke="#2bf5d3" stroke-width="2" x1="47.639" y1="49.473" x2="51.379" y2="49.473"/>
+		<line fill="none" stroke="#2bf5d3" stroke-width="2" x1="54.11" y1="49.473" x2="57.851" y2="49.473"/>
+		<g>
+			<polyline fill="none" stroke="#2bf5d3" stroke-width="2" points="67.356,86.425 65.952,86.425 52.325,79.557 65.952,72.687 
+				67.358,72.687 			"/>
+			<g>
+				<path fill="#2bf5d3" d="M133.102,74.6v9.912H69.458L69.456,74.6H133.102 M137.102,70.6H65.456l0.002,17.912h71.644V70.6
+					L137.102,70.6z"/>
+			</g>
+			<line fill="none" stroke="#2bf5d3" stroke-width="2" x1="135.798" y1="79.556" x2="69.241" y2="79.557"/>
+			<path fill="none" stroke="#2bf5d3" stroke-width="2" d="M136.523,86.492h5.588c0.691,0,1.244-0.68,1.246-1.521l-0.002-10.821
+				c0-0.848-0.555-1.53-1.244-1.53h-5.588"/>
+		</g>
+	</g>
+</g>
+</svg>

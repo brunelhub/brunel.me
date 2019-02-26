@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Title -->
+  <title>Brunel.me</title>
+
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-120238317-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-120238317-1');
+  </script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="public/img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="public/img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="public/img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="public/img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="public/css/font-awesome.min.css">
+  <link rel="stylesheet" href="public/css/bootstrap.css">
+  <link rel="stylesheet" href="public/css/animate.min.css">
+  <link rel="stylesheet" href="public/css/prism.css">
+  <link rel="stylesheet" href="public/css/style.css">
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="84">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+    <div class="container">
+      <div class="d-flex navbar-brand">
+        <!-- <a href="#home-section" class="smooth"><img src="public/img/logo.png" alt="logo"></a>
+        <div class="logo-title-block">
+          <a href="#home-section" class="logo-title smooth">
+            Gaëtan BRUNEL
+          </a>
+          <p class="logo-subtitle">
+            Développeur Full-stack
+          </p>
+        </div> -->
+        <a href="#home-section" class="smooth">
+          <svg class="logo-large" version="1.1" width="250px" viewBox="0 0 742.268 157">
+            <g id="logotype">
+              <path d="M222.147,44.86h-8.878v-7.041c0-3.062-1.225-5.052-4.363-5.052c-3.214,0-4.592,1.99-4.592,5.281v30.156
+              			c0,3.368,1.454,5.281,4.668,5.281c3.368,0,4.898-2.143,4.898-5.817v-7.577h-5.434v-7.118h14.16v27.86h-4.133l-1.454-3.903
+              			c-2.679,3.75-5.894,4.822-9.414,4.822c-8.343,0-12.476-6.046-12.476-13.93V38.278c0-8.266,5.511-13.624,13.776-13.624
+              			c8.19,0,13.241,5.205,13.241,13.395V44.86z" />
+              <path d="M242.887,25.573h10.792l9.644,55.26h-8.802l-1.607-11.481h-9.261l-1.607,11.481h-8.802L242.887,25.573z
+              			 M244.877,61.469h6.812l-3.368-22.808L244.877,61.469z" />
+              <path d="M283.067,48.381h10.715v7.73h-10.715v16.532h15.154v8.189h-24.262v-55.26h23.65v8.036h-14.542V48.381z" />
+              <path d="M325.392,33.762v47.071h-9.108V33.762h-9.721v-8.189h28.396v8.189H325.392z" />
+              <path d="M349.117,25.573h10.792l9.644,55.26h-8.802l-1.607-11.481h-9.261l-1.607,11.481h-8.802L349.117,25.573z
+              			 M351.107,61.469h6.812l-3.368-22.808L351.107,61.469z" />
+              <path d="M400.854,80.833L388.532,46.85v33.983h-8.266v-55.26h8.266l11.557,32.605V25.573h8.266v55.26H400.854z" />
+              <path d="M463.46,52.131v0.153c5.357,2.067,6.506,5.97,6.506,12.706c0,10.485-2.832,15.843-13.777,15.843h-13.623
+              			v-55.26h14.236c9.414,0,12.551,5.128,12.551,15.154C469.353,46.621,468.282,50.141,463.46,52.131z M451.749,48.917h3.598
+              			c3.98,0,5.052-2.449,5.052-7.96s-1.071-7.73-5.052-7.73h-3.598V48.917z M454.964,56.111h-3.215v17.068h3.215
+              			c5.053,0,6.047-2.22,6.047-8.343C461.011,59.25,460.169,56.111,454.964,56.111z" />
+              <path d="M499.737,80.833l-6.275-22.961h-3.291v22.961h-9.186v-55.26h14.313c10.715,0,12.859,7.118,12.859,16.532
+              			c0,9.108-1.99,12.246-6.66,14.465l7.195,24.263H499.737z M493.767,50.524c4.135,0,5.359-1.914,5.359-8.649
+              			s-1.225-8.649-5.359-8.649h-3.596v17.298H493.767z" />
+              <path d="M547.802,68.127c0,8.267-5.357,13.624-13.854,13.624s-13.854-5.357-13.854-13.624V25.573h9.186v42.785
+              			c0,2.908,0.994,5.357,4.668,5.357s4.668-2.449,4.668-5.357V25.573h9.186V68.127z" />
+              <path d="M581.706,80.833L569.384,46.85v33.983h-8.268v-55.26h8.268l11.557,32.605V25.573h8.266v55.26H581.706z" />
+              <path d="M611.554,48.381h10.715v7.73h-10.715v16.532h15.154v8.189h-24.262v-55.26h23.65v8.036h-14.543V48.381z" />
+              <path d="M647.22,72.72h13.854v8.113h-22.961v-55.26h9.107V72.72z" />
+            </g>
+            <g id="subtitle">
+              <text transform="matrix(1 0 0 1 192.833 134.9238)">Identité &amp; Développement</text>
+            </g>
+            <g id="logomark">
+              <g id="circle">
+                <path class="st0" d="M78.5,8.504c38.596,0,69.996,31.4,69.996,69.996c0,38.596-31.4,69.997-69.996,69.997
+          			S8.504,117.096,8.504,78.5C8.504,39.904,39.904,8.504,78.5,8.504 M78.5,0C35.145,0,0,35.145,0,78.5C0,121.855,35.145,157,78.5,157
+          			c43.354,0,78.5-35.145,78.5-78.5C157,35.145,121.854,0,78.5,0L78.5,0z" />
+              </g>
+              <g id="g">
+                <path class="st0" d="M58.384,71.939H51.15v-5.737c0-2.495-0.998-4.116-3.555-4.116c-2.619,0-3.742,1.621-3.742,4.303v24.571
+                			c0,2.744,1.185,4.303,3.804,4.303c2.744,0,3.991-1.746,3.991-4.74v-6.174h-4.428v-5.8h11.537v22.7h-3.368l-1.185-3.181
+                			c-2.183,3.056-4.802,3.929-7.67,3.929c-6.798,0-10.165-4.927-10.165-11.35V66.576c0-6.735,4.49-11.101,11.225-11.101
+                			c6.673,0,10.789,4.241,10.789,10.914V71.939z" />
+              </g>
+              <g id="b">
+                <path class="st0" d="M114.976,78.863v0.125c4.365,1.684,5.301,4.864,5.301,10.352c0,8.544-2.307,12.909-11.225,12.909H97.951
+              			V57.224h11.6c7.67,0,10.227,4.178,10.227,12.348C119.777,74.374,118.904,77.242,114.976,78.863z M105.434,76.244h2.931
+              			c3.243,0,4.116-1.996,4.116-6.485c0-4.49-0.873-6.299-4.116-6.299h-2.931V76.244z M108.053,82.106h-2.619v13.907h2.619
+              			c4.116,0,4.927-1.809,4.927-6.797C112.98,84.663,112.294,82.106,108.053,82.106z" />
+              </g>
+              <rect id="bar" x="76.79" y="41" class="st0" width="3.375" height="74.5" />
+            </g>
+          </svg>
+          <svg class="logo-small" version="1.1" width="55px" viewBox="0 0 157 157">
+            <g id="logomark">
+              <g id="circle">
+                <path class="st0" d="M78.5,8.504c38.596,0,69.996,31.4,69.996,69.996c0,38.596-31.4,69.997-69.996,69.997
+                    			S8.504,117.096,8.504,78.5C8.504,39.904,39.904,8.504,78.5,8.504 M78.5,0C35.145,0,0,35.145,0,78.5C0,121.855,35.145,157,78.5,157
+                    			c43.354,0,78.5-35.145,78.5-78.5C157,35.145,121.854,0,78.5,0L78.5,0z" />
+              </g>
+              <g id="g">
+                <path class="st0" d="M58.384,71.939H51.15v-5.737c0-2.495-0.998-4.116-3.555-4.116c-2.619,0-3.742,1.621-3.742,4.303v24.571
+                          			c0,2.744,1.185,4.303,3.804,4.303c2.744,0,3.991-1.746,3.991-4.74v-6.174h-4.428v-5.8h11.537v22.7h-3.368l-1.185-3.181
+                          			c-2.183,3.056-4.802,3.929-7.67,3.929c-6.798,0-10.165-4.927-10.165-11.35V66.576c0-6.735,4.49-11.101,11.225-11.101
+                          			c6.673,0,10.789,4.241,10.789,10.914V71.939z" />
+              </g>
+              <g id="b">
+                <path class="st0" d="M114.976,78.863v0.125c4.365,1.684,5.301,4.864,5.301,10.352c0,8.544-2.307,12.909-11.225,12.909H97.951
+                        			V57.224h11.6c7.67,0,10.227,4.178,10.227,12.348C119.777,74.374,118.904,77.242,114.976,78.863z M105.434,76.244h2.931
+                        			c3.243,0,4.116-1.996,4.116-6.485c0-4.49-0.873-6.299-4.116-6.299h-2.931V76.244z M108.053,82.106h-2.619v13.907h2.619
+                        			c4.116,0,4.927-1.809,4.927-6.797C112.98,84.663,112.294,82.106,108.053,82.106z" />
+              </g>
+              <rect id="bar" x="76.79" y="41" class="st0" width="3.375" height="74.5" />
+            </g>
+          </svg>
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse" aria-controls="#nav-collapse"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end navbar-right" id="nav-collapse">
+        <ul class="navbar-nav" id="navbar-menu">
+          <li class="nav-item">
+            <a href="#about-section" class="nav-link smooth">À propos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills-section" class="nav-link smooth">Compétences</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services-section" class="nav-link smooth">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio-section" class="nav-link smooth">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact-section" class="nav-link smooth">Contact</a>
+          </li>
+          <li class="divider-vertical"></li>
+        </ul>
+        <ul class="navbar-nav flex-row" id="navbar-social-links">
+          <li class="nav-item list-inline-item">
+            <a href="https://www.facebook.com/Settoken">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item list-inline-item">
+            <a href="https://www.linkedin.com/in/gaëtan-brunel">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="nav-item list-inline-item">
+            <a href="https://github.com/brunelhub">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Accueil -->
+  <section id="home-section">
+    <div class="home-banner">
+      <div class="container">
+        <pre>
+          <code class="shell-session demo language-javascript"></code>
+        </pre>
+      </div>
+    </div>
+    <div class="home-headline">
+      <div class="carousel-caption d-none-sm-block text-center mb-5">
+        <h1 class="display-4">Vous avez
+          <span class="typed-element"></span>
+        </h1>
+        <h5 class="wow fadeIn">Vous pouvez m'envoyer un mail à
+          <a href="mailto:gaetan@brunel.me">gaetan@brunel.me</a>
+          <br> ou me contacter via le formulaire de contact.</h5>
+        <a href="#contact-section" class="btn wow fadeIn smooth">Contact</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- À propos -->
+  <section id="about-section">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-md-8 about-left">
+          <h2 class="anim-title wow fadeInDown">À PROPOS</h2>
+          <hr class="anim-title wow fadeInLeft">
+          <div class="about-text anim-content wow fadeIn">
+            <p>Développeur Full-stack, avec un intérêt particulier pour les technos javascript.
+              <br> Passionné par tout les aspects du web : idées, design, ergonomie, architecture frontend et backend.</p>
+            <p>Après l'obtention d'un diplôme de
+              <a href="https://www.ifocop.fr/formations-metiers/web-digital/formation-developpeur-integrateur-web/">Développeur Intégrateur Web</a> (BAC+4) en 2010, j'ai passé les 9 dernières années à officier en tant que
+              développeur web freelance et consultant.</p>
+            <p>Créatif et perfectionniste, j'aime explorer de nouvelles idées et mettre ma vision au service d'une
+              identité et d'un projet.</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 about-right anim-content wow fadeIn">
+          <img src="public/img/G9.jpg" alt="" class="about-img mx-auto img-fluid rounded-circle">
+          <h4>Gaëtan BRUNEL</h4>
+          <p class="text-muted">Développeur Full-stack</p>
+          <ul class="list-inline about-social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/Settoken">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/gaëtan-brunel">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/brunelhub">
+                <i class="fa fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="skills-section">
+    <div class="container">
+
+      <div class="row skills-text">
+        <div class="col-md-12">
+          <h2 class="anim-title wow fadeInDown">COMPÉTENCES</h2>
+          <hr class="anim-title wow fadeInLeft">
+        </div>
+      </div>
+
+      <div class="row skills-bars anim-content wow fadeIn greyed-out">
+        <div class="col-lg-6">
+          <h4>FRONT END</h4>
+
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/html5.png" alt="html5">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="95">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>HTML5</span>
+              </div>
+              <div class="skillbar-percent">95%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/css3.png" alt="css3">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="95">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>CSS3</span>
+              </div>
+              <div class="skillbar-percent">95%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/bootstrap.png" alt="bootstrap">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="80">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>Bootstrap</span>
+              </div>
+              <div class="skillbar-percent">80%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/javascript.png" alt="javascript">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="85">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>Javascript</span>
+              </div>
+              <div class="skillbar-percent">85%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/jquery.png" alt="jquery">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="90">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>jQuery</span>
+              </div>
+              <div class="skillbar-percent">90%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/react.png" alt="react.js">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="75">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>React.js</span>
+              </div>
+              <div class="skillbar-percent">75%</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6 back-end">
+          <h4>BACK END</h4>
+
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/php.png" alt="html5">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="75">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>PHP</span>
+              </div>
+              <div class="skillbar-percent">75%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/sql.png" alt="sql">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="90">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>SQL</span>
+              </div>
+              <div class="skillbar-percent">80%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/nodejs.png" alt="node.js">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="75">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>Node.js</span>
+              </div>
+              <div class="skillbar-percent">85%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/expressjs.png" alt="express.js">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="80">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>Express.js</span>
+              </div>
+              <div class="skillbar-percent">80%</div>
+            </div>
+          </div>
+          <div class="row skill-wrapper">
+            <div class="col-1 skill-icon">
+              <img src="public/img/skills-logos/mongodb.png" alt="mongodb">
+            </div>
+            <div class="col-11 skillbar-wrapper" data-percent="85">
+              <div class="skillbar-progress"></div>
+              <div class="skillbar-bg"></div>
+              <div class="skillbar-title">
+                <span>MongoDB</span>
+              </div>
+              <div class="skillbar-percent">85%</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="container">
+
+      <div class="row skills-cms text-center anim-content wow fadeIn greyed-out">
+        <div class="col-md-12">
+          <!-- <h4>CMS</h4> -->
+          <div class="row justify-content-md-center">
+            <div class="col-md-2 col-0"></div>
+            <div class="col-md-2 col-3 text-center">
+              <img src="public/img/skills-logos/wordpress.png" class="cms-logo" alt="wordpress">
+              <h5>Wordpress</h5>
+            </div>
+
+            <div class="col-md-2 col-3 text-center">
+              <img src="public/img/skills-logos/magento2.png" class="cms-logo" alt="magento 2">
+              <h5>Magento 2</h5>
+            </div>
+
+            <div class="col-md-2 col-3 text-center">
+              <img src="public/img/skills-logos/prestashop.png" class="cms-logo" alt="prestashop">
+              <h5>Prestashop</h5>
+            </div>
+
+            <div class="col-md-2  col-3 text-center">
+              <img src="public/img/skills-logos/opencart.png" class="cms-logo" alt="opencart">
+              <h5>Opencart</h5>
+            </div>
+            <div class="col-md-2 col-0"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row skills-tools text-center anim-content wow fadeIn greyed-out">
+        <div class="col-md-12">
+          <!-- <h4>OUTILS</h4> -->
+          <div class="row justify-content-md-center">
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/vscode.png" class="tools-logo" alt="visual studio code" title="visual studio code">
+              <!-- <h6>VS Code</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/sass.png" class="tools-logo" alt="sass" title="sass">
+              <!-- <h6>SASS</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/emmet.png" class="tools-logo" alt="emmet" title="emmet">
+              <!-- <h6>Emmet</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/photoshop.png" class="tools-logo" alt="photoshop" title="photoshop">
+              <!-- <h6>Photoshop</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/illustrator.png" class="tools-logo" alt="illustrator" title="illustrator">
+              <!-- <h6>Illustrator</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/github.png" class="tools-logo" alt="github" title="github">
+              <!-- <h6>Github</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/gulpjs.png" class="tools-logo" alt="gulp.js" title="gulp.js">
+              <!-- <h6>Gulp.js</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/debian.png" class="tools-logo" alt="debian" title="debian">
+              <!-- <h6>Debian</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/xampp.png" class="tools-logo" alt="xampp" title="xampp">
+              <!-- <h6>Xampp</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/google.png" class="tools-logo" alt="google" title="google">
+              <!-- <h6>Google</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/stackoverflow.png" class="tools-logo" alt="stack overflow" title="stack overflow">
+              <!-- <h6>Stack overflow</h6> -->
+            </div>
+
+            <div class="col-md-1 col-2 text-center">
+              <img src="public/img/skills-logos/excel.png" class="tools-logo" alt="excel" title="excel">
+              <!-- <h6>Excel</h6> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services-section">
+    <div class="container">
+
+      <div class="row services-text">
+        <div class="col-md-12">
+          <h2 class="anim-title wow fadeInDown">SERVICES</h2>
+          <hr class="anim-title wow fadeInLeft">
+        </div>
+      </div>
+
+      <div class="row services-list anim-content wow fadeIn greyed-out">
+
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/conseil1.svg" alt="icône conseil">
+            <h5>Conseil & Analyse</h5>
+            <hr>
+            <p>
+              <!-- Tout développement conséquent commence par une phase de recherche et d'analyse. -->
+              J'aide mes clients à cibler leur audience, formaliser leurs objectifs, définir une stratégie et rédiger des spécifications.
+            </p>
+            <p class="deliverables">Cahier des charges, business plan, plan marketing</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/frontend.svg" alt="icône front-end">
+            <h5>Développement Front-End</h5>
+            <hr>
+            <p>
+              Création de l'interface utilisateur, la partie visible et interactive du site.
+              <br>Durant cette étape, on donne corps au design.
+              <!-- Durant cette étape, on donne corps au design. On procède à l'intégration des maquettes, des contenus, on crée les animations, les transitions, les menus, les formulaires, etc... -->
+            </p>
+            <p class="deliverables">Intégration des maquettes, des contenus, animations, menus, formulaires, etc...</p>
+            <!-- <p>performances, portabilité, accessibilité, respect de la sémantique web</p> -->
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/backend1.svg" alt="icône back-end">
+            <h5>Développement Back-End</h5>
+            <hr>
+            <p>
+              Création de la partie fonctionnelle de l'application, celle qui implémente la logique métier.
+              <!-- Pour qu'un site prenne vie et soit réellement dynamique, il a besoin d'une base de données et de fonctionnalités pour traiter ces données. -->
+            </p>
+            <p class="deliverables">Module d'inscription, de recherche, de paiement, d'abonnement, sécurité, etc...</p>
+          </div>
+        </div>
+
+        <!-- second row -->
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/webdesign1.svg" alt="icône web design">
+            <h5>Web Design - UI/UX</h5>
+            <hr>
+            <p>
+              Un bon design doit proposer une expérience utilisateur simple et fluide, tout en présentant votre activité sous son meilleur
+              jour.
+            </p>
+            <p class="deliverables">Maquettes, wireframes</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/branding1.svg" alt="icône identité visuelle">
+            <h5>Identité Visuelle</h5>
+            <hr>
+            <p>
+              Une identité visuelle forte permet de se démarquer instantanément.
+              <br>Symboles, formes et couleurs sont là pour traduire en impressions les valeurs que vous souhaitez mettre en
+              avant.
+            </p>
+            <p class="deliverables">Logo, charte graphique, moodbard</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/responsive.svg" alt="icône responsive design">
+            <h5>Responsive Design</h5>
+            <hr>
+            <p>
+              <a href="http://www.journaldunet.com/ebusiness/le-net/1177887-repartition-du-trafic-internet-selon-les-devices-en-france/">
+              Les smartphones et tablettes représentent désormais la majorité du trafic sur le web.</a>
+              Tous mes sites et templates sont responsive, et pensés pour permettre une navigation fluide sur tout support.
+              <!-- Tous mes sites et templates sont responsive, et pensés pour permettre une navigation fluide sur tout support et toute résolution d'écran. -->
+            </p>
+          </div>
+        </div>
+
+        <!-- third row -->
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/wordpress.svg" alt="icône wordpress">
+            <h5>Wordpress</h5>
+            <hr>
+            <p>
+              <!-- Wordpress est un CMS simple d'utilisation permettant d'administrer son site et d'éditer des contenus facilement.  -->
+              Wordpress est une solution pertienente pour la création de blogs, portfolios, sites vitrines, voir de web magazines ou sites
+              e-commerce.
+            </p>
+            <p class="deliverables">Thème sur-mesure, customisations, plugins</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/ecommerce.svg" alt="icône e-commerce">
+            <h5>E-Commerce</h5>
+            <hr>
+            <p>
+              Pour mettre en place une boutique en ligne, il convient de choisir une solution adaptée au catalogue produit et au trafic
+              attendu.
+              <!-- <br>Magento, Prestashop et Opencart sont des solutions éprouvées et adaptées à la création de sites e-commerce professionnels. -->
+              <!-- Il faut également apporter une attention particulière au choix de l'hébergement et anticiper une montée en charge éventuelle. Je travaille sur prestashop, magento 2 et opencart. -->
+            </p>
+            <!-- <p>Gestion des commandes, des clients, frais de port, moyens de paiement</p> -->
+            <p class="deliverables">Magento, Prestashop, Opencart</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3 service-block">
+          <div class="text-center single-content">
+            <img src="public/img/services-icons/seo1.svg" alt="icône référencement">
+            <h5>Référencement</h5>
+            <hr>
+            <p>
+              Outre le référencement naturel, on peut agir concrètement afin d'améliorer la visibilité de votre site, et sa place dans
+              les résultats de recherche.
+              <!-- Le référencement est une pratique qui vise à accroître la visibilité d'un site, et donc le nombre de visites qu'il reçoit. -->
+              <!-- Outre le référencement naturel qui dépend de la qualité du code et de sa conformité aux standards du W3C, on peut agir concrètement afin de faire apparaître votre site dans les premières pages de résultats sur les moteurs de recherche. -->
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- portfolio -->
+  <section id="portfolio-section">
+    <div class="container">
+
+      <div class="row portfolio-text">
+        <div class="col-md-12">
+          <h2 class="anim-title wow fadeInDown">PORTFOLIO</h2>
+          <hr class="anim-title wow fadeInLeft">
+          <p>Voici mes dernières réalisations ainsi que quelques projets sur lesquels j'ai pu travailler récemment.</p>
+        </div>
+      </div>
+
+      <div class="row portfolio-gallery anim-content wow fadeIn greyed-out">
+
+        <div class="col-md-4 col-sm-6 portfolio-item text-center">
+          <a href="#" data-toggle="modal" data-target="#modal-1">
+            <img src="public/img/travaux/magucookies.jpg" alt="magucookies" class="img-fluid">
+            <div class="portfolio-item-caption">
+              <div class="project-name">
+                Magucookies
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- modal -->
+        <div class="portfolio-modal modal fade" id="modal-1" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details -->
+                      <h2 class="text-uppercase">Magucookies</h2>
+                      <p class="item-intro text-muted">Magucookies.com est la boutique en ligne de Mayu Kinugawa. Elle y propose des sablés faits maison dans
+                        lesquels elle met toute sa science et tout son art. Ils sont en plus excellents.</p>
+                      <img class="img-fluid d-block mx-auto" src="public/img/travaux/magucookies.jpg" alt="magucookies">
+                      <p>J'ai été chargé par Mayu de développer l'intégralité de la boutique. Du design du logo, de la charte
+                        graphique, à la création d'un thème, l'installation d'un serveur Linux, puis de Magento 2, la mise
+                        en place des solutions de paiement, certificats SSL et la création d'un module de personnalisation.
+                        J'assure la maintenance du serveur et les mises à jour de Magento 2 de façon régulière.</p>
+                      <p>
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="https://magucookies.com" class="item-link">magucookies.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item text-center">
+          <a href="#" data-toggle="modal" data-target="#modal-2">
+            <img src="public/img/travaux/rimcoaching.jpg" alt="rimcoaching" class="img-fluid">
+            <div class="portfolio-item-caption">
+              <div class="project-name">
+                Rimcoaching
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- modal -->
+        <div class="portfolio-modal modal fade" id="modal-2" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details -->
+                      <h2 class="text-uppercase">Rimcoaching</h2>
+                      <p class="item-intro text-muted">Le site personnel de Rim, destiné à présenter son activité de coach. Elle met ses compétences de professeur
+                        et son dynamisme au service de lycéens ayant des difficultés à s'y retrouver et à s'orienter.</p>
+                      <img class="img-fluid d-block mx-auto" src="public/img/travaux/rimcoaching.jpg" alt="rimcoaching">
+                      <p>Rim a fait appel à moi alors qu'elle venait de se lancer dans son projet de coaching scolaire et d'orientation,
+                        afin de l'accompagner et de créer un site qui lui ressemble. Un travail a été fait sur le positionnement,
+                        l'image et la méthodologie. Le site repose sur wordpress. Création des logos, contenus, photographies
+                        et retouches, installation d'un thème. A l'avenir, Rim aimerait développer la partie blog du site
+                        et l'alimenter avec des articles, tests et supports pour ses coachings.</p>
+                      <p>
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="http://rimcoaching.com" class="item-link">rimcoaching.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item text-center">
+          <a href="#" data-toggle="modal" data-target="#modal-3">
+            <img src="public/img/travaux/video-presenters.jpg" alt="video-presenters" class="img-fluid">
+            <div class="portfolio-item-caption">
+              <div class="project-name">
+                Video Presenters
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- modal -->
+        <div class="portfolio-modal modal fade" id="modal-3" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details -->
+                      <h2 class="text-uppercase">Video Presenters</h2>
+                      <p class="item-intro text-muted">Video-presenters est un service proposant l'affichage de web-présentateurs sur votre site afin de souligner
+                        ou orienter le visiteur vers les liens ou produits mis en avant.</p>
+                      <img class="img-fluid d-block mx-auto" src="public/img/travaux/video-presenters.jpg" alt="video-presenters">
+                      <p>A l'origine, les créateurs du site ont fait appel à moi pour développer la V1 de leur code en javascript
+                        et PHP. Les vidéos devant être affichées en transparence, et cette option n'étant pas gérer nativement
+                        par les navigateurs, il a fallut mettre en place une solution dérivée basée sur canvas. De nombreux
+                        tests et corrections ont été nécessaires pour assurer un affichage standard sur tous les supports.
+                        <br> Dans un second temps, video-presenters m'a commandé une refonte totale du code basée intégralement
+                        sur javascript, permettant les communications cross-domain sans erreurs, la création paramétrable
+                        d'un bouton au-dessus de la vidéo, et une mise en oeuvre simplifiée côté client. Le code est open
+                        source et disponible ici :
+                        <a href="https://github.com/brunelhub/HTML5-Video-Transparency" class="item-link">brunelhub/HTML5-Video-Transparency</a>.</p>
+                      <p>
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="http://www.video-presenters.com/nos-realisations/" class="item-link">www.video-presenters.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item text-center">
+          <a href="#" data-toggle="modal" data-target="#modal-5">
+            <img src="public/img/travaux/linkedin-dl.gif" alt="linkedin-dl" class="img-fluid">
+            <div class="portfolio-item-caption">
+              <div class="project-name">
+                Linkedin-dl
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- modal -->
+        <div class="portfolio-modal modal fade" id="modal-5" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details -->
+                      <h2 class="text-uppercase">Linkedin-dl</h2>
+                      <p class="item-intro text-muted">Voici un script permettant de télécharger intégralement des cours depuis son compte LinkedIn Learning
+                        - ceci afin de pouvoir les visionner hors-ligne.</p>
+                      <img class="img-fluid d-block mx-auto" src="public/img/travaux/linkedin-dl.gif" alt="linkedin-dl">
+                      <p>Ce script est basé sur NodeJS et utilise la librairie
+                        <a href="https://github.com/GoogleChrome/puppeteer"
+                          class="item-link">puppeteer</a> développée par l'équipe derrière Google Chrome. Elle est à l'origine essentiellement
+                        destinée au développement de tests automatisés. Outre son objectif premier, ce script a été un bon
+                        exercice pour se familiariser davantage avec les apports de javascript ES5 et ES6 (les promises et
+                        async/await principalement).</p>
+                      <p>
+                        L'intégralité du code est disponible ici :
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="https://github.com/brunelhub/Linkedin-dl" class="item-link">brunelhub/linkedin-dl</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item text-center">
+          <a href="#" data-toggle="modal" data-target="#modal-4">
+            <img src="public/img/travaux/lagrimpe.jpg" alt="lagrimpe.jpg" class="img-fluid">
+            <div class="portfolio-item-caption">
+              <div class="project-name">
+                La Grimpe
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- modal -->
+        <div class="portfolio-modal modal fade" id="modal-4" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details -->
+                      <h2 class="text-uppercase">La Grimpe</h2>
+                      <p class="item-intro text-muted">Lagrimpe.com est un site dédié à l'escalade, initié par Adrien Echiffre en 2014. Il a depuis acquis
+                        une bonne réputation parmi les passionnés grâce à la qualité de son contenu. Il est également bien
+                        référencé.</p>
+                      <img class="img-fluid d-block mx-auto" src="public/img/travaux/lagrimpe.jpg" alt="lagrimpe.jpg">
+                      <p>La création initiale du site m'avait été confiée. Logos, icônes, charte graphique, illustrations, installation
+                        de wordpress et création d'un thème personnalisé. Il a récemment dû faire l'objet d'une réinstallation
+                        complète, ainsi que d'une mise à jour de sécurité. Mise à jour également des plugins, installation
+                        d'un gestionnaire d'évènements, et correction de bugs liés à l'update.
+                        <br> Adrien souhaite renforcer les partenariats et l'organisation de sorties. Des développements dans
+                        ce sens sont prévus.</p>
+                      <p>
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="http://www.lagrimpe.com/" class="item-link">lagrimpe.com</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+
+
+        <div class="col-md-4 col-sm-6 portfolio-item text-center">
+          <a href="#" data-toggle="modal" data-target="#modal-6">
+            <img src="public/img/travaux/brunel.me.jpg" alt="brunel.me" class="img-fluid">
+            <div class="portfolio-item-caption">
+              <div class="project-name">
+                Brunel.me
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- modal -->
+        <div class="portfolio-modal modal fade" id="modal-6" tabindex="-1" role="dialog" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                  <div class="rl"></div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-8 mx-auto">
+                    <div class="modal-body">
+                      <!-- Project Details -->
+                      <h2 class="text-uppercase">Brunel.me</h2>
+                      <p class="item-intro text-muted">Brunel.me est la nouvelle version de mon portfolio. Il présente mon activité de développeur web, ainsi
+                        que quelques projets auxquels j'ai participé.</p>
+                      <img class="img-fluid d-block mx-auto" src="public/img/travaux/brunel.me.jpg" alt="brunel.me">
+                      <p>Le site se présente sur une seule page. Il se veut lisible, concis et direct. Le template a été crée
+                        en utilisant Bootstrap 4 et jQuery, ainsi que quelques autres librairies pour les effets et animations.
+                        La gestion des mails de contact se fait grâce à nodemailer.</p>
+                      <p>
+                        <i class="fa fa-arrow-circle-o-right"></i>
+                        <a href="http://brunel.me" class="item-link">brunel.me</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact-section">
+    <svg preserveAspectRatio="none" viewBox="0 0 100 102" version="1.1" xmlns="http://www.w3.org/2000/svg" class="svg-transition">
+      <path d="M0 0 L50 100 L100 0 Z"></path>
+    </svg>
+
+    <div class="container">
+
+      <div class="row contact-text">
+        <div class="col-md-12">
+          <h2 class="anim-title wow fadeInDown">CONTACT</h2>
+          <hr class="anim-title wow fadeInLeft">
+        </div>
+      </div>
+
+      <div class="row anim-content wow fadeIn" id="contact-main">
+        <div class="col-md-6 order-2 order-md-1" id="contact-left">
+
+          <div id="google-map"></div>
+
+          <div id="contact-infos">
+            <div class="info-block">
+              <div class="info-left pull-left">
+                <i class="fa fa-skype"></i>
+              </div>
+              <div class="info-right">
+                <span class="info-title">Skype</span>
+                <a href="skype:gbrunel">settoken</a>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-left pull-left">
+                <i class="fa fa-phone"></i>
+              </div>
+              <div class="info-right">
+                <span class="info-title">Tel</span>
+                <a href="tel:0155537968">01 55 53 79 68</a>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-left pull-left">
+                <i class="fa fa-envelope"></i>
+              </div>
+              <div class="info-right">
+                <span class="info-title">Email</span>
+                <a href="mailto:gaetan@brunel.me">gaetan@brunel.me</a>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-left pull-left">
+                <i class="fa fa-map-marker"></i>
+              </div>
+              <div class="info-right">
+                <span class="info-title">Adresse</span>
+                <p>53, rue Maurice Gunsbourg
+                  <br>94200 Ivry-sur-Seine</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-6 order-1 order-md-2" id="contact-right">
+          <form method="POST" action="#" id="contact-form">
+        
+            <div class="form-group">
+              <label for="inputName">Nom*</label>
+              <input type="text" name="nom" placeholder="Nom" class="form-control" id="inputName">
+              <div class="invalid-feedback">
+                Merci d'indiquer votre nom.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputMail">Email*</label>
+              <input type="text" name="email" placeholder="Adresse@email.com" class="form-control" id="inputMail">
+              <div class="invalid-feedback">
+                Merci d'indiquer une adresse email valide.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputSite">Site web</label>
+              <input type="text" name="site" placeholder="Le-site.com" class="form-control" id="inputSite">
+            </div>
+            <div class="form-group">
+              <label for="inputSubject">Sujet*</label>
+              <select name="sujet" class="form-control" id="inputSubject">
+                <option></option>
+                <option>Demande d'estimation</option>
+                <option>Demande de renseignements</option>
+                <option>Site sur-mesure</option>
+                <option>E-commerce</option>
+                <option>Wordpress</option>
+                <option>Création de logo</option>
+                <option>Création de charte graphique</option>
+                <option>Développement spécifique</option>
+                <option>Correction de bug</option>
+                <option>Web marketing</option>
+                <option>Référencement</option>
+                <option>Autre</option>
+              </select>
+              <div class="invalid-feedback">
+                Merci d'indiquer le sujet du message.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputMessage">Message*</label>
+              <textarea rows="8" name="message" placeholder="À propos de votre projet..." class="form-control" id="inputMessage"></textarea>
+              <div class="invalid-feedback">
+                👻 Un message SVP.
+              </div>
+            </div>
+            <div>
+              <!-- <a href="#" class="btn" role="button">Envoyer</a> -->
+              <button type="submit" class="btn">Envoyer</button>
+              <div id="msg"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <div class="triangle">
+            <a href="#home-section" class="back-to-top smooth" title="Back to top" role="button">
+              <i class="fa fa-angle-double-up hidden-xs"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- footer -->
+  <section id="footer-section">
+    <div class="container poweredby text-center">
+      <p>© 2018. Servi par
+        <img src="public/img/node.png" alt="Node.js">
+      </p>
+    </div>
+  </section>
+
+  <!-- JS -->
+  <script src="public/js/jquery.min.js"></script>
+  <!-- always first -->
+  <script src="public/js/bootstrap.min.js"></script>
+  <script src="public/js/wow.min.js"></script>
+  <script src="public/js/prism.js"></script>
+  <script src="public/js/typed.min.js"></script>
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDvkf39ALPkGLUxF8s3ZAhpbo_3oP-4SNA"></script>
+  <script src="public/js/brunel.me.js"></script>
+
+</body>
+</html>

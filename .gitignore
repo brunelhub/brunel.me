@@ -1,0 +1,11 @@
+node_modules
+app.BAK
+# .gitignore
+public/index.html
+# gulpfile.js
+package-lock.json
+# .elasticbeanstalk/
+# # Elastic Beanstalk Files
+# .elasticbeanstalk/*
+# !.elasticbeanstalk/*.cfg.yml
+# !.elasticbeanstalk/*.global.yml
