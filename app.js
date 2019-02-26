@@ -81,7 +81,7 @@ app.post('/ajax', (req, res) => {
   });
 });
 
-var port = process.env.PORT || 8081;
+var port = process.env.PORT || 80;
 app.listen(port, function () {
   console.log('node server started at ' + port);
 });
